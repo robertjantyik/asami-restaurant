@@ -10,7 +10,6 @@ public class IndexController {
 
     @GetMapping("")
     public String getIndex(){
-        System.out.println("asd");
         return "index";
     }
 }
